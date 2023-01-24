@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+    label 'ansible'
+    }
 
     stages {
         stage('Hello') {
@@ -8,7 +10,7 @@ pipeline {
             }
         }
     }
-}
+
 post {
    always {
      echo "sending email"
