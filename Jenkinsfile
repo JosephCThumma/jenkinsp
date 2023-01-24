@@ -9,3 +9,19 @@ pipeline {
         }
     }
 }
+post{
+   always {
+     echo "sending email"
+
+
+
+
+
+   }
+
+
+
+
+
+}
+}
