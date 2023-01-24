@@ -9,16 +9,10 @@ pipeline {
         }
     }
 }
-post{
+post {
    always {
      echo "sending email"
-
-
-
-
-
-
-
+}
 
 }
 }
